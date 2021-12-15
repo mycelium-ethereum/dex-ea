@@ -35,3 +35,8 @@ DISCORD_WEBHOOK=${DISCORD_WEBHOOK}
 ```
 docker-compose up
 ```
+
+## Served on
+```
+localhost:8080/price?pair_address=0x..
+```
