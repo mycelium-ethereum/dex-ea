@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+fastapi = {extras = ["all"], version = "*"}
+web3 = "*"
+uvicorn = {version = "==0.15.0", extras = ["standard"]}
+discord = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
